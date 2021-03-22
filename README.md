@@ -6,7 +6,8 @@
 
 tem que retornar um PDO:
 
-`PDO {#3334
+```
+PDO {#3334
      inTransaction: false,
      attributes: {
        CASE: NATURAL,
@@ -25,4 +26,5 @@ tem que retornar um PDO:
        CONNECTION_STATUS: "127.0.0.1 via TCP/IP",
        DEFAULT_FETCH_MODE: BOTH,
      },
-   }`
+   }
+   ```

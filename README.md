@@ -1,5 +1,9 @@
 # Laravel
 
+## Instalação com Composer
+Instale a ultima versão do composer (https://getcomposer.org/) e crie/instale com o comando:
+* `composer create-project laravel/laravel my_first_laravel`
+
 ## Testar conexão com banco de dados
 * `php artisan tinker`
 * `DB::connection()->getPdo();`
@@ -28,3 +32,5 @@ PDO {#3334
      },
    }
    ```
+## Servidor
+* `php artisan serve`

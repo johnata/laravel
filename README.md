@@ -176,3 +176,26 @@ Route::put('students/{id}', [ApiController::class, 'updateStudent']);
 Route::delete('students/{id}',[ApiController::class, 'deleteStudent']);
 ...
 ```
+
+
+## Alguns comandos
+```
+php artisan config:cache
+php artisan make:test StudentTest
+php artisan make:test StudentTest --unit
+./vendor/bin/phpunit
+php artisan test
+php artisan test --testsuite=Feature --stop-on-failure
+
+
+composer require brianium/paratest --dev 
+php artisan test --parallel
+```
+
+## Rodar testes em paralelo 
+```
+composer require brianium/paratest --dev
+
+php artisan test --parallel
+php artisan test --parallel --processes=4
+```
